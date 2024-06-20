@@ -1,0 +1,15 @@
+Lesson 1: HTML Basics
+Lesson 2: CSS Basics
+Lesson 3: Hovers, Transitions, Shadows
+Lesson 4: Chrome DevTools & CSS Box Model
+Lesson 5: Text Styles
+Lesson 6: The HTML Structure
+Lesson 7: Images and Text Boxes
+Lesson 8: CSS Display Property
+Lesson 9: The div Element
+Lesson 10: Nested Layouts Technique
+Lesson 11: CSS Grid
+Lesson 12: Flexbox 
+Lesson 13: Nested Flexbox
+Lesson 14: CSS Position
+Lesson 15: Position Absolute and Relative
