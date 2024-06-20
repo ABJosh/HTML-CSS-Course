@@ -1,0 +1,20 @@
+body {
+  height: 3000px;
+}
+
+
+.Close-button {
+  font-family: Arial;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+}
