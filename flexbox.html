@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Flexbox Practice
+    </title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <!-- display: flex; creates a flex box -->
+    <!-- flex-direction: row; it aligns elements horizontally in a horizontal layout-->
+    <!-- Flexbox can maintain alignment -->
+    <div style="
+      display: flex;
+      flex-direction: row;">
+      <div style="background-color: lightblue;"
+      > div 1 text </div>
+      <div style="background-color: lightpink;"
+      > div 2 <p>text</p></div>
+    </div>
+
+    <!-- flex: 1; is equivalent to 1fr from grid -->
+    <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;">
+
+        <div style="background-color: lightblue;
+        width: 100px;"
+        > 100px </div>
+        <div style="background-color: lightpink;
+        flex: 1;"
+        > flex 1 </div>
+      </div>
+      
+      <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;">
+    
+    <!-- flex: 2 element will take twice the amount of the remaining space of flex 1 -->
+    <!-- if we change the order of the elements, the layout will change but it keeps its width even they move around -->
+       <div style="background-color: lightblue;
+        flex: 1;"
+        > flex 1 </div>
+        <div style="background-color: lightpink;
+        width: 100px;"
+        > 100px </div>
+        <div style="background-color: lightblue;
+        width: 100px;
+        flex: 2;"
+       > flex 2 </div>
+      </div>
+
+      <!-- HEADER SECTION EXAMPLE -->
+
+      <!-- the elements are aligned in the center with justify-content property -->
+      <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      ">
+  
+        <div style="background-color: lightblue;
+        width: 100px;"
+        > 100px </div>
+        <div style="background-color: lightpink;
+        width: 100px;"
+        > 100px </div>
+        <div style="background-color: lightblue;
+        width: 100px;
+        width: 100px;"
+        > 100px </div>
+      </div>
+
+      <!-- the elements are aligned "space-between" using justify-content property -->
+      <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      ">
+  
+        <div style="background-color: lightblue;
+        width: 100px;"
+        > 100px </div>
+        <div style="background-color: lightpink;
+        width: 100px;"
+        > 100px </div>
+        <div style="background-color: lightblue;
+        width: 100px;
+        width: 100px;"
+        > 100px </div>
+      </div>
+
+      <!-- align-items: determines how elements are aligned vertically thus the items or elements are aligned in the center vertically with "space-between"-->
+      <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      ">
+  
+        <div style="background-color: lightblue;
+        width: 100px;"
+        > 100px </div>
+        <div style="background-color: lightpink;
+        width: 100px;"
+        > 100px </div>
+        <div style="background-color: lightblue;
+        width: 100px;
+        width: 100px;"
+        > 100px </div>
+      </div>
+  </body>
+</html>
